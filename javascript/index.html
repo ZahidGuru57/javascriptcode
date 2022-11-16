@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json_data</title>
+</head>
+<body>
+    
+<script>
+    const data = [
+    {
+        "id": "1",
+        "name": "zahid",
+        "description": "App 1 description",
+        "created": "2016-03-01T00:00:00Z",
+        "modified": "2016-03-01T00:00:00Z",
+        "address": {
+            "city": "Hangu",
+            "country": "pakistan",
+            "country_code": "hongkong"
+        }  
+    }
+    ]
+
+    const json_data = JSON.stringify(data);
+    // console.log(json_data);
+
+    const obj = JSON.parse(json_data);
+    console.log(obj);
+
+</script>
+
+</body>
+</html>
