@@ -14,5 +14,4 @@
 
 // indexOf method in string
 const str = "this is a new method";
-
 console.log(str.indexOf("new"));
